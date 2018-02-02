@@ -4,8 +4,17 @@
 
 	<head>
 
-		<title>Novo Cadastro</title>
+		<title>Exemplo Cadastro(EBD)</title>
 		<meta charset="utf-8" />
+
+		<style>
+
+			#data{
+				float:left;
+				margin-right:20px;
+			}
+
+		</style>
 
 	</head>
 
@@ -18,12 +27,51 @@
 		<h2>Preencha os campos abaixo:</h2>
 
 		<form>
-			Campo 1:<br />
-			<input type="text"/><br />
-			Campo 2:<br />
-			<input type="text"/><br />
-			Campo 3:<br />
-			<input type="text"/><br />
+
+			<div>
+				Nome Completo:<br />
+				<input type="text"/>
+			</div>
+			<br />
+
+			<div>
+				Data de Nascimento:<br />
+				<input id="data" type="text" size="1"/>
+
+				<input id="data" type="text" size="1"/>
+
+				<input id="data" type="text" size="3"/>
+			</div>
+			<br />
+			<br />
+
+			<div>
+				E-Mail:<br />
+				<input type="text"/>
+			</div>
+			<br />
+
+			<div>
+				Telefone:<br />
+				<input type="text"/>
+			</div>
+			<br />
+
+			<div>
+				Classe:<br />
+				<select>
+					<option value="" SELECTED>Selecionar...
+					<option>Op1</option>
+					<option>Op2</option>
+					<option>Op3</option>
+				</select>
+			</div>
+			<br />
+
+			<button>Enviar</button>
+
+
+
 		</form>
 
 	</body>
